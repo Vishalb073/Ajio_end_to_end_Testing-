@@ -26,5 +26,12 @@ Feature: Login , Searching , Add To cart function Working fine
       | products |
       |Denim geans|
       |Crocs      |
-      |watches     |
+      |watches    |
+
+  Scenario: add to cart
+    Given user serched for the product
+    And user go to product
+    And user click on add to cart button
+    Then go to cart
+
 

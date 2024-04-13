@@ -47,7 +47,10 @@ public class products {
         brandName.click();
     }
     public List<WebElement> items(){
+
         List<WebElement> superDryItems = products;
+
         return superDryItems;
     }
 }
+
